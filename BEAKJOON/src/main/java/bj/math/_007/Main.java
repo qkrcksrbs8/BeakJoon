@@ -27,7 +27,7 @@ public class Main {
 		// B 초기화
 		for(int i = str_B.length() - 1, idx = 0; i >= 0; i--, idx++) {
 			B[idx] = str_B.charAt(i) - '0';	// 맨 뒤 문자부터 역순으로 하나씩 저장
-		}	
+		}	 
 		for(int i = 0; i < max_length; i++) {
 			int value = A[i] + B[i];
 			A[i] = value % 10;		// 더한 값의 10으로 나눈 나머지가 자리값이 됨

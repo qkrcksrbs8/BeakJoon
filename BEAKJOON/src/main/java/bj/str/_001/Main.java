@@ -16,7 +16,7 @@ public class Main {
 			if(i == N+1) continue;
  			arrayS[i] = br.readLine();
 		}
-		
+		 
 		for(int i = 0; i < N; ++i) {
 			if(-1 < arrayS[i+N+1].indexOf(arrayS[i])) System.out.println("YES"); 
 			else System.out.println("NO");

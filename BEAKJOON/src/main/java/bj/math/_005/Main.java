@@ -52,7 +52,7 @@ public class Main {
 				sb.append((H * 100) + (N / H)).append('\n');
  
 			} else {
-				sb.append(((N % H) * 100) + ((N / H) + 1)).append('\n');
+				sb.append(((N % H) * 100) + ((N / H) + 1)).append('\n'); 
 			}
 		}
 		System.out.print(sb);

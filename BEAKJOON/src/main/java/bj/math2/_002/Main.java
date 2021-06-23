@@ -26,7 +26,7 @@ public class Main {
 		int min = Integer.MAX_VALUE;
 		for(int i = M; i <= N; i++) {
 			if(prime[i] == false) {
-				sum += i;
+				sum += i; 
 				if(min == Integer.MAX_VALUE) {
 					min = i;
 				}

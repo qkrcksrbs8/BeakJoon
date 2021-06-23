@@ -28,7 +28,7 @@ public class Main {
             if (!map.containsKey(n))
                 map.put(n, idx++);
 
-        StringBuilder sb = new StringBuilder();
+        StringBuilder sb = new StringBuilder(); 
         for (int n : nums)
             sb.append(map.get(n)).append(' ');
 
