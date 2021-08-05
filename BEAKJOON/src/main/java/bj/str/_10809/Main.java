@@ -7,12 +7,12 @@ import java.io.InputStreamReader;
 public class Main {
 
 	/**
-	 * ¾ËÆÄºªÃ£±â
+	 * ì•ŒíŒŒë²³ì°¾ê¸°
 	 * @param args
 	 */
 	public static void main(String[] args) throws IOException {		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		String str = br.readLine();	// N Àº ¾µ¸ð°¡ ¾øÀ¸¹Ç·Î ÀÔ·Â¸¸ ¹Þ´Â´Ù.	
+		String str = br.readLine();	
 		StringBuilder sb = new StringBuilder();
 		for(char i = 'a'; i <= 'z'; ++i) {
 			sb.append(str.indexOf(i)).append(" ");

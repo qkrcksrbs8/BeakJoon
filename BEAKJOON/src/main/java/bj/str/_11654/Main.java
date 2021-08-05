@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
 
 	/**
-	 * �ƽ�Ű �ڵ�
+	 * 아스키코드
 	 * @param args
 	 */
 	public static void main(String[] args) {
