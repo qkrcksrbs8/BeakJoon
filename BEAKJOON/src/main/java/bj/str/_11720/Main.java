@@ -11,12 +11,12 @@ public class Main {
 	 * @param args
 	 */
 	public static void main(String[] args) throws IOException {		
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		br.readLine();	// N �� ���� �����Ƿ� �Է¸� �޴´�.	
-		String[] strArray = br.readLine().split("");
-		int sum = 0;
-		for (int i = 0; i < strArray.length; ++i) {
-			sum += Integer.parseInt(strArray[i]);
+		BufferedReader br 	= new BufferedReader(new InputStreamReader(System.in));
+		int cnt 			= Integer.parseInt(br.readLine());
+		String[] arr 		= br.readLine().split("");
+		int sum 			= 0;
+		for (int i = 0; i < cnt; ++i) {
+			sum += Integer.parseInt(arr[i]);
 		}
 		System.out.print(sum);
 	}
