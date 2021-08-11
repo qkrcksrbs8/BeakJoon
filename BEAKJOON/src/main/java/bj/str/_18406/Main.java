@@ -18,11 +18,11 @@ public class Main {
 		int left	= 0;
 		int right	= 0;
 		for (int i = 0; i < count/2; ++i) {
-			left += (str.charAt(i)-0);
+			left += (str.charAt(i));
 		}
 		for (int i = count/2; i < count; ++i) {
-			right += (str.charAt(i)-0);
+			right += (str.charAt(i));
 		}
-		System.out.println((0 == (left-right)? "LUCKY":"READY"));
+		System.out.println((left == right ? "LUCKY":"READY"));
 	}
 }
