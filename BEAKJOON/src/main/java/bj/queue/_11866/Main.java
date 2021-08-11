@@ -1,4 +1,4 @@
-package bj.queue._18258;
+package bj.queue._11866;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
