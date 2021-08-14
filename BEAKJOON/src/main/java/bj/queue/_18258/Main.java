@@ -21,10 +21,10 @@ public class Main {
 		Deque<Integer> q 	= new ArrayDeque<>();	
 		int N = Integer.parseInt(br.readLine());
 		StringTokenizer command;
-		
+
 		while(N-- > 0) {
 			command = new StringTokenizer(br.readLine(), " ");	// 문자열 분리 
-			
+
 			switch(command.nextToken()) {	
 			
 			case "push":

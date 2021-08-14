@@ -18,5 +18,6 @@ public class Main {
 			sb.append(str.indexOf(i)).append(" ");
         }
 		System.out.println(sb.toString().substring(0,sb.length()-1));
+ 
 	}
 }
